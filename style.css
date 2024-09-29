@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(69,69,69);
+    /* background: transparent; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+ul li{
+    list-style: none;
+    font-size: 13px;
+}
+i{
+    font-size: 13px;
+}
+#firstdiv{
+    margin-top: 34px;
+    background-color: rgb(29,29,31);
+    text-align: center;
+    padding: 10px 0;
+}
+#firstdiv span{
+    color: white;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(2,107,212);
+}
+.p1{
+    width: 100vw;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.p11{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.p1 img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+.p11 h1{
+    font-size: 50px;
+}
+.p11 p{
+    font-size: 25px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+button{
+    padding: 10px 18px;
+    border-radius: 15px;
+    background-color: rgb(0,113,227);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+.p111{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: rgb(134,134,139);
+    font-size: 18px;
+}
+.p{
+    color: black;
+}
+.p2{
+    width: 100vw;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.p21{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.p21 img{
+    object-fit: contain;
+}
+.p32 img{
+    width: 45Vw;
+    height: 80vh;
+    object-fit: cover;
+}
+.h2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+    top: 11%;
+}
+.button1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    top: 15%;
+}
+.p22{
+    width: 100vw;
+}
+.p22 img{
+    width: 100%;
+}
+.h3{
+    color: white;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.p31, .p33{
+    width: 45vw;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.p33 img{
+    height: 80vh;
+}
+.p333{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.p4, .p44{
+    width: 45vw;   
+    position: relative;
+}
+.p4 img{
+    width: 50vw;
+}
+.p41{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.button3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.pp4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tra{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+.p44 p{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+.p3333{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    color: black;
+    text-align: center;
+}
+.p311{
+    width: 45vw;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.p311 h2{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 50%);
+    color: black;
+}
+.p311 p{
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    transform: translate(-50%, 50%);
+    color: black;
+}
+.f1{
+    width: 70vw;
+    margin: auto;
+    padding: 50px 0;
+    color: rgb(121, 121, 123);
+    font-size: 15px;
+}
+hr{
+    width: 70vw;
+    margin: auto;
+}
+.f2{
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 50px;
+    gap: 100px;
+}
+.f2 p{
+    color: rgb(121, 121, 123);
+    font-size: 15px;
+}
+.a{
+    padding: 20px 0;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    color: rgb(121, 121, 123);
+    margin: 50px 0;
+}
+.last{
+    width: 75vw;
+    color: rgb(121, 121, 123);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
